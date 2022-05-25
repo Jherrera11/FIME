@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICI</title>
+    <title>Respuestas</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 <!--Header section star-->
-    <header>
+<header>
         <a href="#" class="logo">HOLA</a>
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="Index.html">Inicio</a>
                 </li>
                 <li>
                     <a>Computo</a>
@@ -38,13 +38,20 @@
 <!--Header section end-->
 
 <!--Home section star-->
-<section class="home" id="home">
+<section class="home2" id="home">
 
     <div class="content">
-        <h4>COMPUTO EN LA NUBE</h4>
-        <p>
-            Es el uso de una red de servidores remotos conectados a internet para almacenar, administrar y procesar datos, servidores, bases de datos, redes y software. En lugar de depender de un servicio físico instalado.
-        </p>
+        <h4>Respuestas</h4>
+        <div class="card">
+        Pregunta 1 <?php echo  $_POST['pregunta1'];?><br>
+        Pregunta 2 <?php echo  $_POST['pregunta2'];?><br>
+        Pregunta 3 <?php echo  $_POST['pregunta3'];?><br>
+        Pregunta 4 <?php echo  $_POST['pregunta4'];?><br>
+        Pregunta 5 <?php echo  $_POST['pregunta5'];?><br>
+        Pregunta 6 <?php echo  $_POST['pregunta6'];?><br>
+        Pregunta 7 <?php echo  $_POST['pregunta7'];?><br>
+        Pregunta 1 <?php echo  $_POST['pregunta8'];?><br>
+        </div>
     </div>
 </section>
 
@@ -52,3 +59,4 @@
 
 </body>
 </html>
+

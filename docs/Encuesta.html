@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<!--Header section star-->
+    <header>
+        <a href="#" class="logo">HOLA</a>
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a>Computo</a>
+                    <ul>
+                        <li><a href="Arte.html">Arte</a></li>
+
+                        <li><a href="Encuesta.html">Encuesta</a></li>
+
+                        <li><a href="Servicios.html">Servicios</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Temas</a>
+                    <ul>
+                        <li><a href="Traductor.html">Traductor</a></li>
+                        
+                        <li><a href="Google.html">Google</a></li></li>
+                    </ul>
+                </li>
+            </ul>
+    </header>
+<!--Header section end-->
+<section class="home2" id="home">
+
+    <div class="content ">
+        <h4>Encuesta</h4>
+        <form action="procesar.php" method="post" class="card">
+            <fieldset>
+                <legend>Sabes o has escuchado del termino Cloud Computing (Computo en la nube)</legend>
+                <input class="input" type="radio" name="pregunta1" value="Si"> Si <br>
+                <input class="input" type="radio" name="pregunta1" value="No"> No
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Cree usted que es importante que la FIME enseñe sobre Cloud Computing</legend>
+                <input class="input" type="radio" name="pregunta2" value="Si"> Si <br>
+                <input class="input" type="radio" name="pregunta2" value="No"> No
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Conoce cuales son los servicios que se ofrecen Cloud Computing</legend>
+                <input class="input" type="text" name="pregunta3" > 
+            </fieldset><br>
+
+            <fieldset>
+                <legend>
+                    Cuales de los servicios de Cloud Computing que usted conoce,cree que se pueda ofrecer o aplicar en FIME
+                </legend>
+                <input class="input" type="text" name="pregunta4" > 
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Cuales serian los principales beneficios de Cloud Computing en la carrera</legend>
+                <input class="input" type="text" name="pregunta5" >
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Cuales de las siguientes compañias es la mas importante en Cloud Computing </legend>
+                <input class="input" type="radio" name="pregunta6" value="Google"> Google <br>
+                <input class="input" type="radio" name="pregunta6" value="Microsoft"> Microsoft <br>
+                <input class="input" type="radio" name="pregunta6" value="Amazon"> Amazon <br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Que tan seguido utilizas los servicios que ofrecen Cloud Computing </legend>
+                <input class="input" type="radio" name="pregunta7" value="Siempre"> Siempre <br>
+                <input class="input" type="radio" name="pregunta7" value="Normalmente"> Normalmente  <br>
+                <input class="input" type="radio" name="pregunta7" value="Nunca"> Rara vez <br>
+                <input class="input" type="radio" name="pregunta7" value="Nunca"> Nunca <br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Cual servicio utiliza mas de Cloud Computing </legend>
+                <input class="input" type="text" name="pregunta8" >
+            </fieldset><br>
+            <input class="boton "type="submit" value="Enviar">
+        </form>
+        <br>
+        <div class="card"><button class="boton verde" role="link" onclick="window.location='https://docs.google.com/forms/d/e/1FAIpQLSeX-wSq5GpzdTzhIpsuE_Og2GDngv1Q8sCoU7TQBDTnZvChXQ/viewform?usp=sf_link'">Google Form</button></div>
+    </div>
+</section>
